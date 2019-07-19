@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Laboratoria",
+    "url": "https://laboratoria.la/",
+    "avatar": "https://github.com/Laboratoria.png",
+    "tier": "platinum"
+  },
+  {
+    "name": "Por confirmar",
+    "url": "#",
+    "avatar": "",
+    "tier": "gold"
+  },
+  {
+    "name": "Por confirmar",
+    "url": "#",
+    "avatar": "",
+    "tier": "silver"
+  },
+  {
+    "name": "Por confirmar",
+    "url": "#",
+    "avatar": "",
+    "tier": "bronze"
+  },
+  {
+    "name": "Perú Dev",
+    "url": "https://peru-dev.org/",
+    "avatar": "https://github.com/peru-dev.png",
+    "tier": "community"
+  },
+  {
+    "name": "LimaJS",
+    "url": "https://limajs.org/",
+    "avatar": "https://github.com/lima-js.png",
+    "tier": "community"
+  },
+  {
+    "name": "Mozilla Perú",
+    "url": "http://www.mozilla.pe/",
+    "avatar": "https://github.com/mozillaperu.png",
+    "tier": "community"
+  },
+  {
+    "name": "Lima Frontend",
+    "url": "https://limafrontend.org/",
+    "avatar": "https://github.com/limaFrontend.png",
+    "tier": "community"
+  },
+  {
+    "name": "Vuejs Lima",
+    "url": "https://www.meetup.com/Vuejs-Lima/",
+    "avatar": "https://github.com/Vuejs-lima.png",
+    "tier": "community"
+  },
+  {
+    "name": "VueVixens Perú",
+    "url": "https://twitter.com/vuevixensPE",
+    "avatar": "https://github.com/VueVixens.png",
+    "tier": "community"
+  },
+  {
+    "name": "Data Science Research Perú",
+    "url": "https://datascience.pe/",
+    "avatar": "https://datascience.pe/dist/images/logoDSRP.png",
+    "tier": "community"
+  }
+]

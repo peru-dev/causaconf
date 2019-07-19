@@ -1,0 +1,27 @@
+[
+  {
+    "id": "platinum",
+    "title": "Platino",
+    "size": 200
+  },
+  {
+    "id": "gold",
+    "title": "Oro",
+    "size": 175
+  },
+  {
+    "id": "silver",
+    "title": "Plata",
+    "size": 140
+  },
+  {
+    "id": "bronze",
+    "title": "Bronce",
+    "size": 120
+  },
+  {
+    "id": "community",
+    "title": "Comunidades organizadoras",
+    "size": 100
+  }
+]
