@@ -1,10 +1,10 @@
-# causa-conf.pe
+# causaconf.pe
 
 ## Install
 
 ```sh
-git clone ...
-cd causa-conf
+git clone git@github.com:peru-dev/causaconf.git
+cd causaconf
 npm i
 ```
 
