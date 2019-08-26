@@ -119,7 +119,7 @@ button, .button {
 }
 
 #top {
-  background-color: beige;
+  background: center / cover no-repeat url('https://acomer.pe/wp-content/uploads/2018/02/causalimeniathumb-1.jpg');
   display: flex;
   justify-content: center;
   align-items: center;
