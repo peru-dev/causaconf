@@ -2,10 +2,10 @@ import { createElement } from 'nano';
 
 
 const SpeakerAvatar = ({ speaker }) => (
-  (speaker.avatar)
+  (speaker.twitter)
     ? createElement('img', {
       className: 'avatar',
-      src: speaker.avatar,
+      src: `https://twitter.com/${speaker.twitter}/profile_image?size=original`,
       alt: speaker.name,
     })
     : createElement('div', {
