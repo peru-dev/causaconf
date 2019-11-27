@@ -23,7 +23,7 @@ las comunidades organizadoras.
 
 ### ¿Qué tipos de sponsorship hay para empresas/organizaciones?
 
-Para [CausaConf 2019](https://causaconf.pe/) ofrecemos 4 _tiers_ de sponsorship:
+Para [CausaConf 2020](https://causaconf.pe/) ofrecemos 4 _tiers_ de sponsorship:
 
 * **Platino**: $1,000
 * **Oro**: $500
