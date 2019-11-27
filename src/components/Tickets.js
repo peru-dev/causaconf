@@ -1,4 +1,4 @@
-import { createElement } from 'nano';
+import createElement from '../lib/createElement';
 
 
 export default () => createElement('section', {
@@ -11,7 +11,7 @@ export default () => createElement('section', {
       children: [
         createElement('a', {
           className: 'button',
-          href: 'https://ti.to/peru-dev/causa-conf-2019',
+          href: 'https://ti.to/peru-dev/causa-conf-2020',
           innerText: 'Compra tu ticket',
         }),
       ],

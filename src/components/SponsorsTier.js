@@ -1,4 +1,4 @@
-import { createElement } from 'nano';
+import createElement from '../lib/createElement';
 import Sponsor from './Sponsor';
 
 

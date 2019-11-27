@@ -1,4 +1,4 @@
-import { createElement } from 'nano';
+import createElement from '../lib/createElement';
 
 
 export default ({ sponsor, size = 200 }) => createElement('a', {

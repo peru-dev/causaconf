@@ -1,14 +1,14 @@
-import { createElement } from 'nano';
+import createElement from '../lib/createElement';
 
 
 export default ({ topics, delay }) => {
   const topic = createElement('span', {
     id: 'tema',
-    innerText: 'desarrollo web',
+    textContent: 'desarrollo web',
   });
 
   const next = (curr) => {
-    topic.innerText = topics[curr];
+    topic.textContent = topics[curr];
     setTimeout(() => next(curr >= topics.length - 1 ? 0 : curr + 1), delay);
   };
 
@@ -19,14 +19,23 @@ export default ({ topics, delay }) => {
     children: [
       createElement('header', {
         children: [
-          createElement('h1', { innerText: 'CausaConf' }),
-          createElement('p', { innerText: 'Una conferencia sobre' }),
+          createElement('h1', { textContent: 'CausaConf' }),
+          createElement('p', { textContent: 'Una conferencia sobre' }),
           createElement('p', { children: [topic] }),
-          createElement('p', { innerHTML: '23/24 Nov, 2019<br />Lima, Perú' }),
+          createElement('p', {
+            children: [
+              createElement('div', { textContent: 'Jun 2020' }),
+              // createElement('a', {
+              //   href: 'https://goo.gl/maps/LE3Qp5nKS6rQU1pG9',
+              //   textContent: 'Auditorio UTEC',
+              // }),
+              createElement('div', { textContent: 'Lima, Perú' }),
+            ],
+          }),
           createElement('a', {
             className: 'button',
-            href: 'https://ti.to/peru-dev/causa-conf-2019',
-            innerText: 'Compra tu ticket',
+            href: 'https://ti.to/peru-dev/causa-conf-2020',
+            textContent: 'Compra tu ticket',
           }),
         ],
       }),

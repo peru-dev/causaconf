@@ -1,4 +1,4 @@
-import { createElement } from 'nano';
+import createElement from '../lib/createElement';
 import Nav from './Nav';
 import Top from './Top';
 import SpeakersList from './SpeakersList';

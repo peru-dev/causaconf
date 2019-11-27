@@ -1,4 +1,4 @@
-import { createElement } from 'nano';
+import createElement from '../lib/createElement';
 
 
 const SpeakerAvatar = ({ src, alt }) => (

@@ -6,6 +6,12 @@
     "tier": "platinum"
   },
   {
+    "name": "UTEC",
+    "url": "https://www.utec.edu.pe/",
+    "avatar": "https://github.com/utec.png",
+    "tier": "platinum"
+  },
+  {
     "name": "Por confirmar",
     "url": "#",
     "avatar": "",

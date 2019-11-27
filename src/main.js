@@ -1,4 +1,4 @@
-import { render } from 'nano';
+import render from './lib/render';
 import speakers from './data/speakers.json';
 import sponsors from './data/sponsors.json';
 import tiers from './data/tiers.json';
