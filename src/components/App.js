@@ -4,6 +4,7 @@ import Top from './Top';
 import SpeakersList from './SpeakersList';
 import SponsorsList from './SponsorsList';
 import Tickets from './Tickets';
+import Footer from './Footer';
 
 
 export default ({
@@ -19,5 +20,6 @@ export default ({
     SpeakersList({ speakers }),
     SponsorsList({ tiers, sponsors }),
     Tickets(),
+    Footer(),
   ],
 });

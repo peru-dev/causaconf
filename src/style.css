@@ -247,6 +247,21 @@ button, .button {
   align-items: center;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: beige;
+}
+
+footer > div,
+footer > a {
+  display: block;
+  padding: 10px 0;
+}
+
 @media (min-width: 600px) {
   h1 {
     font-size: 3em;
@@ -260,5 +275,10 @@ button, .button {
   nav > ul {
     display: flex;
     height: auto;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
   }
 }
