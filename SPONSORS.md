@@ -38,7 +38,7 @@ cubrir directamente un gasto en particular.
 #### Bronce
 
 * Nombre, logo y link en la sección de sponsors del [website](https://causaconf.pe/).
-* Mención en las sesiones de apertura y cierre de ambos días.
+* Mención en las sesiones de apertura y cierre del evento.
 * Menciones en la comunicación oficial de la conferencia (emails, redes
   sociales, posts/tweets de agradecimiento, ...).
 * Inclusión en materiales impresos: badges, programa, señalética, ...
@@ -70,7 +70,7 @@ cubrir directamente un gasto en particular.
 ### ¿Cómo hacerse sponsor?
 
 Llena [este formulario](https://forms.gle/7UxA1ynbDm7cN55B9) o escríbenos
-directamente a [peru.develop@gmail.com](mailto:peru.develop@gmail.com) para
+directamente a [causaconf@gmail.com](mailto:causaconf@gmail.com) para
 contarte más detalles y aclarar dudas. Una vez en contacto, y dependiendo del
 _tier_ que te interese, te podemos ofrecer que cubras algún gasto directamente
 (por ejemplo cubrir el catering, pagar los stickers, ...) para hacer las cosas
