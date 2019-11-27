@@ -1,4 +1,10 @@
 {
   "extends": "airbnb-base",
-  "env": { "browser": true, "jest": true }
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }]
+  }
 }
