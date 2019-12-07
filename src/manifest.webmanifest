@@ -1,0 +1,22 @@
+{
+  "short_name": "CausaConf",
+  "name": "CausaConf 2020",
+  "description": "Página oficial de CausaConf",
+  "icons": [
+    {
+      "src": "/img/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f2e380",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "scope": "/"
+}

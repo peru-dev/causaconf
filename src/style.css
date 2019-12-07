@@ -121,7 +121,7 @@ button, .button {
 
 #top {
   background-color: beige;
-  background-image: url("campus-utec-lima.png");
+  background-image: url("img/campus-utec-lima.png");
   background-size: cover;
   background-position: center;
   -ms-interpolation-mode: nearest-neighbor;
