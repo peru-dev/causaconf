@@ -24,11 +24,11 @@ export default ({ topics, delay }) => {
           createElement('p', { children: [topic] }),
           createElement('p', {
             children: [
-              createElement('div', { textContent: 'Jun 2020' }),
-              // createElement('a', {
-              //   href: 'https://goo.gl/maps/LE3Qp5nKS6rQU1pG9',
-              //   textContent: 'Auditorio UTEC',
-              // }),
+              createElement('div', { textContent: '13 Jun 2020' }),
+              createElement('a', {
+                href: 'https://goo.gl/maps/LE3Qp5nKS6rQU1pG9',
+                textContent: 'Auditorio UTEC',
+              }),
               createElement('div', { textContent: 'Lima, Perú' }),
             ],
           }),
