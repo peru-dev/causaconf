@@ -5,8 +5,11 @@
   "scripts": {
     "pretest": "eslint .",
     "test": "jest --verbose --coverage",
-    "start": "parcel src/index.html",
-    "build": "rm -rf dist && parcel build src/index.html",
+    "start": "parcel src/index.html -d build",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build src/index.html",
+    "postbuild": "workbox generateSW workbox-config.js",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
@@ -19,6 +22,7 @@
     "eslint-plugin-import": "^2.18.2",
     "gh-pages": "^2.1.1",
     "jest": "^24.9.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "workbox-cli": "^4.3.1"
   }
 }

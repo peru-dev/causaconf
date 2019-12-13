@@ -9,12 +9,18 @@ import App from './components/App';
 const withData = data => Component => props => Component({ ...props, ...data });
 
 
-render(
-  withData({
-    speakers,
-    sponsors,
-    tiers,
-    topics,
-  })(App),
-  document.getElementById('root'),
-);
+window.addEventListener('load', () => {
+  render(
+    withData({
+      speakers,
+      sponsors,
+      tiers,
+      topics,
+    })(App),
+    document.getElementById('root'),
+  );
+
+  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js');
+  }
+});
