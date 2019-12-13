@@ -4,11 +4,11 @@
 
 ## Team
 
-* 🔈 Speakers (guest speakers, CFP, agenda, travel arrangements, ...) @lizzie136
-* 💰 Sponsors / Budget / Tickets @talueses
-* 👀 Identidad visual (website, stickers, banners, badges, decor, polos, swag bags, ...) @lupomontero
-* 📢 Medios y documentación (redes sociales, fotos, video, stream, ...) @katechauca
-* 🚚 Logística (recepción, transporte, café, comida, voluntarixs, seguridad, ...) @ccarruitero
+* 🔈 Speakers (guest speakers, CFP, agenda, travel arrangements, ...) [@lizzie136](https://github.com/lizzie136)
+* 💰 Sponsors / Budget / Tickets [@talueses](https://github.com/talueses)
+* 👀 Identidad visual (website, stickers, banners, badges, decor, polos, swag bags, ...) [@lupomontero](https://github.com/lupomontero)
+* 📢 Medios y documentación (redes sociales, fotos, video, stream, ...) [@katechauca](https://twitter.com/katechauca)
+* 🚚 Logística (recepción, transporte, café, comida, voluntarixs, seguridad, ...) [@ccarruitero](https://github.com/ccarruitero)
 
 ## Contact
 
