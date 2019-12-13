@@ -1,5 +1,7 @@
 # causaconf.pe
 
+![Node CI Status](https://github.com/peru-dev/causaconf/workflows/Node%20CI/badge.svg)
+
 ## Install
 
 ```sh
