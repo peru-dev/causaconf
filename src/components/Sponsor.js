@@ -1,10 +1,9 @@
 import createElement from '../lib/createElement';
 
 
-export default ({ sponsor, size = 200 }) => createElement('a', {
-  href: sponsor.url,
-  children: [
-    createElement('img', {
+const createAvatar = (sponsor, size) => (
+  sponsor.avatar
+    ? createElement('img', {
       className: 'avatar',
       src: sponsor.avatar,
       alt: sponsor.name,
@@ -14,7 +13,22 @@ export default ({ sponsor, size = 200 }) => createElement('a', {
       },
       width: size,
       height: size,
-    }),
+    })
+    : createElement('div', {
+      className: 'avatar',
+      innerText: '?',
+      style: {
+        width: `${size}px`,
+        height: `${size}px`,
+      },
+    })
+);
+
+
+export default ({ sponsor, size = 200 }) => createElement('a', {
+  href: sponsor.url,
+  children: [
+    createAvatar(sponsor, size),
     createElement('h4', {
       innerText: sponsor.name,
       style: {
