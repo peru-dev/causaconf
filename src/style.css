@@ -262,6 +262,16 @@ footer > a {
   padding: 10px 0;
 }
 
+.social a {
+  padding: 0 8px;
+}
+.social a svg {
+  width: 30px;
+}
+.social a:hover svg path {
+  fill: crimson;
+}
+
 @media (min-width: 600px) {
   h1 {
     font-size: 3em;
