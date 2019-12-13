@@ -25,7 +25,9 @@ jobs:
 
     - name: Build
       if: success() && github.ref == 'refs/heads/master'
-      run: npm run build
+      run: |
+        npm run build
+        echo ${{ secrets.DOMAIN_NAME}} > dist/CNAME
 
     - name: Deploy
       if: success() && github.ref == 'refs/heads/master'
