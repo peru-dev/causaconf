@@ -6,6 +6,7 @@ export default () => createElement('footer', {
     createElement('a', {
       href: 'https://es.confcodeofconduct.com/',
       target: '_blank',
+      rel: 'noopener',
       innerText: 'Código de conducta',
     }),
     createElement('div', {
