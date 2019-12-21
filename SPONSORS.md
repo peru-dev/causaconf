@@ -1,5 +1,7 @@
 # Sponsors
 
+([English version](SPONSORS.en-US.md))
+
 **CuasaConf es una conferencia sin ánimo de lucro** organizada por varias
 comunidades de desarrolladores bajo el paraguas de [Perú Dev](https://peru-dev.org/).
 Todxs lxs organizadores y _staff_ son voluntarixs que ofrecen su tiempo y
@@ -49,7 +51,7 @@ cubrir directamente un gasto en particular.
 
 * Todo lo mismo que bronce.
 * Tamaño de logo más grande que bronce.
-* Espacio para presentar a la empresa u organización (5-10min) durante la
+* Espacio para presentar a la empresa u organización (3-5min) durante la
   conferencia.
 * 2 Entradas gratis.
 
