@@ -29,7 +29,7 @@ export default ({ tiers, sponsors }) => {
       createElement('a', {
         className: 'button',
         href: 'https://forms.gle/7UxA1ynbDm7cN55B9',
-        innerText: 'Interesadx en patrocinar este evento?',
+        innerText: '¿Interesadx en patrocinar este evento?',
       }),
     ],
   });
