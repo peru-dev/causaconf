@@ -1,11 +1,13 @@
 [
   {
     "name": "Estefany Aguilar 🇨🇴",
-    "twitter": "teffcode"
+    "twitter": "teffcode",
+    "avatar": require("../img/speakers/Estefany_Aguilar.jpg")
   },
   {
     "name": "Fernando Larrañaga 🇨🇱",
-    "twitter": "xabadu"
+    "twitter": "xabadu",
+    "avatar": require("../img/speakers/Fernando_Larrañaga.jpg")
   },
   {
     "name": "Por confirmar",
