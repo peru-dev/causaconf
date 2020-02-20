@@ -20,11 +20,7 @@ export default ({ speaker }) => createElement('a', {
   children: [
     SpeakerAvatar({
       alt: speaker.name,
-      src: (
-        speaker.twitter
-          ? `https://twitter.com/${speaker.twitter}/profile_image?size=original`
-          : speaker.avatar
-      ),
+      src: speaker.avatar,
     }),
     createElement('h3', { innerText: speaker.name }),
     speaker.twitter && createElement('p', { innerText: `@${speaker.twitter}` }),
